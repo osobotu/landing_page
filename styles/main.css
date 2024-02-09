@@ -1,0 +1,157 @@
+body {
+    padding: 0px;
+    margin: 0px;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+
+.body-container {
+    padding: 24px 200px;
+}
+
+.header, 
+.footer, 
+.introduction {
+    background-color: #1F2937;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    font-size: 24px;
+    color: #F9FAF8;
+}
+
+.header-links, 
+.hero-secondary-text{
+    display: flex;
+    font-size: 18px;
+    color: #a0b1d3;
+    gap: 16px;
+}
+
+.content {
+    flex: 1;
+}
+
+.introduction {
+    padding-top: 52px;
+    padding-bottom: 100px;
+    
+    display: flex;
+    gap: 16px;
+}
+
+.introduction div {
+    flex: 1;
+}
+
+.hero-text {
+    font-size: 48px;
+    font-weight: extra-bold;
+    color: #F9FAF8;
+    width: 300px;
+}
+
+.hero-secondary-text {
+    width: 400px;
+    padding-bottom: 16px;
+}
+
+.random-info {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 32px;
+    padding-bottom: 100px;
+    gap: 32px;
+}
+
+.random-header {
+    font-size: 36px;
+    font-weight: 900;
+}
+
+.boxes-row {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    gap: 56px;
+}
+
+.box-container {
+    flex-basis: 150px;
+    text-align: center;
+}
+
+.box {
+    border: 2px solid #3882F6;
+    border-radius: 8px;
+    height: 150px;
+    margin-bottom: 8px;
+}
+
+.quote-section {
+    background-color: #E5E7EB;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.quote {
+    width: 800px;
+    font-size: 36px;
+    font-style: italic;
+    font-weight: 100;
+}
+
+.author {
+    display: flex;
+    justify-content: flex-end;
+    width: 800px;
+    font-weight: bold;
+}
+
+.call-to-action {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 100px 0;
+}
+
+.call-to-action-card {
+    background-color: #3882F6;
+    padding: 50px 50px;
+    display: flex;
+    justify-content: space-between;
+    gap: 100px;
+    color: white;
+    border-radius: 8px;
+}
+
+.call-to-action-card > button {
+    border: 1px white solid;
+    color: white;
+}
+
+.footer {
+    height: 40px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+button {
+    background-color: #3882F6;
+    border-radius: 4px;
+    box-shadow: none;
+    padding: 8px 24px;
+    font-size: 16px;
+}
+
